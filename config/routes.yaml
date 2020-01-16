@@ -1,0 +1,9 @@
+index:
+    path: /
+    controller: App\Controller\Home::landing
+authorize:
+    path: /authorize
+    controller: App\Controller\Home::authorize
+access:
+    path: /access
+    controller: App\Controller\Home::access

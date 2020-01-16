@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
+    </head>
+    <body>
+        <table class="blueTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Balance</td>
+                    <td>{{ balance }}</td>
+                </tr>
+                <tr>
+                    <td>Currency</td>
+                    <td>{{ currency }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
